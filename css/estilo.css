@@ -64,8 +64,6 @@
         background-color: darkgreen;
         padding: 20px;
         margin: 0 auto;
-        width: 90%;
-        max-width: 1024px;
 }
     .hero-image h2{
         color:beige;
@@ -76,13 +74,13 @@
         margin: 10px auto;
 }
     .boton{
-        background-color: #ffff;
-        color:cadetblue
+        background-color: #7afbca;
+        color:cadetblue;
         text-decoration: none;
         font-weight: bold;
         padding: 10px 20px;
-        border: radius 15px;
-        trasition: background-color 0.6s;
+        border-radius: 15px;
+        transition: background-color 0.6s;
 }
     .boton:hover{
         background-color:lightblue;
@@ -100,4 +98,61 @@
 }
 .cards ul{
     list-style: none;
+    justify-content: space-between;
+}
+.cards li{
+    flex-basis: 20%;
+}
+.economia-circular{
+    background-color: bisque;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 3px 3px 4px #3a3737;
+}
+.economia-circular h3{
+    color: #0e0d0d;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: monospace;
+    margin: 20px auto;
+    text-align: center;
+}
+.economia-circular h4{
+    color: #050505;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: monospace;
+    margin: 20px auto;
+    text-align: center;
+}
+.economia-circular p{
+    color: #050505;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: monospace;
+    margin: 20px auto;
+    text-align: center;
+}
+.economia-circular a{
+    color: #050505;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: monospace;
+    margin: 20px auto;
+    text-align: center;
+}
+.economia-circular ul{
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.economia-circular{
+    margin: 10px auto;
+    width: 290px;
+    background-color: #666;
+    box-shadow: #0e0d0d;
+    border-radius: 10px 10px 0 0;
+    transition: box-shadow 0.5s;
+
 }
